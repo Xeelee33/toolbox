@@ -1,0 +1,38 @@
+File Name & Contents
+brac_1_1_1.geojson - Closed Base Area
+indian_lands_1_1_1.geojson - Indian Land
+mvw_gov_area_map_1_1_1.geojson - Census Tract Governor-Designated Covered Area
+mvw_gov_area_map_county_1_1_1.geojson - County Governor-Designated Covered Area
+qct_brac_1_1_1.geojson - Census Tract Closed Base Area
+qct_e_1_1_1.geojson - Census Tract
+qct_qda_1_1_1.geojson - Census Tract Disaster Area
+qct_r_1_1_1.geojson - Census Tract Redesignated Area
+qnmc_brac_1_1_1.geojson - County Closed Base Area
+qnmc_e_1_1_1.geojson - County
+qnmc_qda_1_1_1.geojson - County Disaster Area
+qnmc_r_1_1_1.geojson - County Redesignated Area
+
+Source:
+curl -o "brac_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Abrac&outputFormat=application%2Fjson"
+
+curl -o "indian_lands_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aindian_lands&outputFormat=application%2Fjson"
+
+curl -o "mvw_gov_area_map_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Amvw_gov_area_map&outputFormat=application%2Fjson"
+
+curl -o "mvw_gov_area_map_county_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Amvw_gov_area_map_county&outputFormat=application%2Fjson"
+
+curl -o "qct_brac_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqct_brac&outputFormat=application%2Fjson"
+
+curl -o "qct_e_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqct_e&outputFormat=application%2Fjson"
+
+curl -o "qct_qda_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqct_qda&outputFormat=application%2Fjson"
+
+curl -o "qct_r_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqct_r&outputFormat=application%2Fjson"
+
+curl -o "qnmc_brac_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqnmc_brac&outputFormat=application%2Fjson"
+
+curl -o "qnmc_e_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqnmc_e&outputFormat=application%2Fjson"
+
+curl -o "qnmc_qda_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqnmc_qda&outputFormat=application%2Fjson"
+
+curl -o "qnmc_r_1_1_1.geojson" "https://maps.certify.sba.gov/geoserver/hubzone/ows?service=WFS&version=1.1.1&request=GetFeature&typeName=hubzone%3Aqnmc_r&outputFormat=application%2Fjson"
